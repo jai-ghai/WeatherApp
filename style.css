@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.input input{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.input button{
+    padding: 10px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wheather-box{
+    /* border: 2px solid black; */
+    height: 500px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.icon{
+    
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.wheather{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.temperature{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 500;
+}
